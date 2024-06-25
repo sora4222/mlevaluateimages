@@ -1,3 +1,7 @@
 .python-version
 .idea/
 *.raw
+data/**
+images/
+tfx_pipeline_output/
+tfx_metadata/
