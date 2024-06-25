@@ -9,4 +9,9 @@ Does not currently support MacOs as [tfx_bsl does not run on Apple Silicon chips
 This does make it difficult for my current setup to use TFX for the pipeline.
 A Windows computer does not support this either currently as `tensorflow-io-gcs-filesystem` does not support windows as
 it is [missing a Windows build](https://discuss.tensorflow.org/t/tensorflow-io-gcs-filesystem-with-windows/18849/6).
-To get around this you can use WSL to host an Ubuntu OS that can install everything appropriately.
+To get around this you can use WSL to host an Ubuntu OS that can install everything appropriately. To get this working
+on a WSL you need to perform a few installs:
+```shell
+sudo apt install build-essential python3-dev 
+```
+Performing these installs allows Poetry to build the `pyfarmhash` package produced by Google.

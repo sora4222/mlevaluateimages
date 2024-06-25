@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mlevaluateimages"
-version = "0.1.0"
+version = "1.0.0"
 description = "Used to study MLE and the stages of MLE by building a pipeline for training a model that will be able to predict whether an image would be wanted by myself or not."
 authors = ["Jesse <sora4222@hotmail.com>"]
 readme = "README.md"
